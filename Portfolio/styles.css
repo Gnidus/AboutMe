@@ -86,7 +86,7 @@ div#background_image{
 }
 
 #hello .cytat{
-    margin-top: 200px;
+    margin-top: 120px;
     letter-spacing: 1px;
     color: rgb(242, 242, 242);
     font-size: 30px;
@@ -115,7 +115,7 @@ div#about_me_container{
     color: rgb(131, 131, 131); 
 }
 
-#about_me .col-7{
+#about_me .col-sm-12{
     justify-content: center;
     text-align: justify;
     font-family: 'Candara', sans-serif;
@@ -177,6 +177,7 @@ div#about_me_container{
     padding: 0 15px;
     background-size: cover;
     box-sizing: border-box;
+    margin-top:5px;
 }
 
 div#skills_container{
@@ -204,7 +205,7 @@ div#skills_container{
     height: auto;
 }
 
-#skills .col-lg-4:nth-child(-n + 2){
+#skills .col-md-4:nth-child(-n + 2){
     border-right: 4px dotted lightblue;
 }
 
@@ -212,7 +213,7 @@ div#skills_container{
     margin:0;
 }
 
-#skills .col-lg-4{
+#skills .col-md-4{
     justify-content: center;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -231,11 +232,12 @@ div#skills_container{
 
 #skills img{
     display: inline-flex;
-    width:auto;
+    width:85%;
     max-height: 200px;
     padding: 0 15px;
     background-size: cover;
     box-sizing: border-box;
+    margin-bottom: 5px;
 }
 
 
