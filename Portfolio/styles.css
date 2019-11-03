@@ -313,24 +313,24 @@ div#projects_container{
 }
 
 .justify-content-center .col-4{
-    background-color: rgb(131, 131, 131,0.3);
+    background-color: rgba(131, 131, 131,0.3);
     transition:  background-color 0.5s ease-in-out;
 }
 
 #quizzApp:hover .justify-content-center .col-4{
-    background-color: rgb(131, 131, 131,0.9);
+    background-color: rgba(131, 131, 131,0.9);
 }
 
 #partyApp:hover .justify-content-center .col-4{
-    background-color: rgb(131, 131, 131,0.9);
+    background-color: rgba(131, 131, 131,0.9);
 }
 
 #libraryApp:hover .justify-content-center .col-4{
-    background-color: rgb(131, 131, 131,0.9);
+    background-color: rgba(131, 131, 131,0.9);
 }
 
 #rentCarApp:hover .justify-content-center .col-4{
-    background-color: rgb(131, 131, 131,0.9);
+    background-color: rgba(131, 131, 131,0.9);
 }
 
 
